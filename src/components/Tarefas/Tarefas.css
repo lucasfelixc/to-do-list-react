@@ -1,0 +1,47 @@
+.tarefas {
+  margin-top: 30px;
+}
+
+.tarefas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px;
+  border-radius: 5px;
+
+  transition: 0.35s;
+}
+
+.tarefas li:hover {
+  background-color: #e0e5e7;
+}
+
+.tarefas li .edit {
+  margin-right: 15px;
+  color: #2e7f91;
+  cursor: pointer;
+
+  transition: 0.35s;
+}
+
+.tarefas li .edit:hover {
+  color: #30b1ce;
+}
+
+.tarefas li .delete {
+  margin-right: 15px;
+  color: #911717;
+  cursor: pointer;
+
+  transition: 0.35s;
+}
+
+.tarefas li .delete:hover {
+  color: #c21313;
+}
+
+.tarefas li div {
+  display: flex;
+  align-items: center;
+}

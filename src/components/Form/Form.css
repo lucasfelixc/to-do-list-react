@@ -1,0 +1,26 @@
+.form input[type="text"] {
+  height: 40px;
+  padding: 0 20px;
+  font: 400 15px 'Work sans';
+  border: 1px solid #ccc;
+  min-width: 80%;
+}
+
+.form button[type="submit"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  width: 40px;
+  height: 40px;
+  background: #f04c64;
+  color: #ffffff;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button[type="submit"]:hover {
+  background: #ce3b51;
+}
